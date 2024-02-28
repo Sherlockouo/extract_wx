@@ -1,0 +1,16 @@
+{
+  "name": "wechat_article_extract",
+  "version": "1.0.0",
+  "description": "For extract wechat article",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.1",
+    "turndown": "^7.1.2",
+    "we-extract": "^2.3.22"
+  }
+}
