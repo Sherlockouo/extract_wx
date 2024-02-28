@@ -26,7 +26,7 @@ fastify.post('/extract_from_wx_article', function handler (request, reply) {
   })
 
 // Run the server!
-fastify.listen({ port: 3300 }, (err) => {
+fastify.listen({ port: 3300,host:"0.0.0.0" }, (err) => {
   if (err) {
     fastify.log.error(err)
     process.exit(1)
